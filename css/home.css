@@ -1,0 +1,93 @@
+                     * {
+                         margin: 0;
+                         padding: 0;
+                         box-sizing: border-box;
+                         outline: none;
+                         font-family: 'News Cycle', sans-serif;
+                         font-weight: 400;
+                         text-decoration: none;
+                     }
+                     /*Common style  */
+                     /*section  */
+                     
+                     .section-1 {
+                         height: 150vh;
+                         width: 100%;
+                         background: url(../images/bg.jpg) center no-repeat;
+                         background-size: cover;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: center;
+                         align-items: center;
+                     }
+                     
+                     .person-img {
+                         width: 25rem;
+                         height: 25rem;
+                         object-fit: cover;
+                         border-radius: 1cm;
+                         transform: skew(-10deg);
+                     }
+                     
+                     .person-name {
+                         font-size: 2rem;
+                         color: #fff;
+                         letter-spacing: 3rem;
+                         transform: skew(-10deg);
+                     }
+                     
+                     .section-1-btn {
+                         font-size: 1.5rem;
+                         font-weight: 700;
+                         background-color: #fff;
+                         color: #333300;
+                         padding: .5rem;
+                         transform: skew(-10deg);
+                     }
+                     /* navbar */
+                     
+                     .navbar {
+                         width: 100%;
+                         height: 4rem;
+                         background-color: #5a5a00;
+                     }
+                     
+                     .center {
+                         display: flex;
+                         flex-direction: row;
+                         justify-content: space-evenly;
+                         align-items: center;
+                     }
+                     
+                     .nav-bar-link {
+                         color: #fff;
+                         font-size: 1.5rem;
+                         font-weight: 400;
+                         padding: .5rem;
+                     }
+                     
+                     .nav-bar-link:hover {
+                         text-decoration: underline;
+                     }
+                     
+                     a:focus {
+                         background-color: #a2a216;
+                     }
+                     
+                     p {
+                         padding: 20px;
+                         margin: 20px;
+                         text-align: 20px;
+                         width: 50%;
+                         color: #fff;
+                         font-size: 1.5rem;
+                         font-weight: 400;
+                         padding: .5rem;
+                         text-align: center;
+                     }
+                     
+                     .label {
+                         color: white;
+                         text-align: right;
+                         margin-left: 900px;
+                     }

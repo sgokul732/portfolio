@@ -1,0 +1,82 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                outline: none;
+                font-family: 'News Cycle', sans-serif;
+                font-weight: 400;
+                text-decoration: none;
+            }
+            
+            .navbar {
+                width: 100%;
+                height: 4rem;
+                background-color: #5a5a00;
+            }
+            
+            .center {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            
+            .nav-bar-link {
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: 400;
+                padding: .5rem;
+            }
+            
+            .nav-bar-link:hover {
+                text-decoration: underline;
+            }
+            
+            a:focus {
+                background-color: #a2a216;
+            }
+            
+            .section-2 {
+                padding: 20px;
+                background: url(../images/bg.jpg) center no-repeat;
+                background-size: cover;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .section-2-heading {
+                text-align: center;
+                font-size: 5rem;
+                text-transform: uppercase;
+                letter-spacing: .5rem;
+            }
+            
+            .progress-bar-wrapper {
+                width: 50%;
+            }
+            
+            .progress-bar {
+                height: 2rem;
+                width: 100%;
+                background-color: white;
+                color: #5a5a00;
+                margin: 20px 0;
+                border-radius: .2rem;
+            }
+            
+            .progress-text {
+                font-size: 20px;
+                margin: 20px;
+            }
+            
+            .progress-text span {
+                margin-left: 2rem;
+                font-weight: 400;
+            }
+            
+            .img {
+                background-color: #fff;
+            }
